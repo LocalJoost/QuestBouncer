@@ -1053,7 +1053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b6aa5b52bd6ca4cb6e8424a03ef766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomMeshBuildingBlock: {fileID: 8775938762357447801, guid: 14107d1cfa39fb54f8009632d20d1c5f, type: 3}
+  roomMeshBuildingBlock: {fileID: 8775938762357447801, guid: a16bea45ab339ff4b85c4f904eb6ad72, type: 3}
   OnRoomMeshCreated:
     m_PersistentCalls:
       m_Calls:
