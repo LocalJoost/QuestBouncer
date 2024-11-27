@@ -18,6 +18,10 @@ namespace CubeBouncer
         private void Start()
         {
             lastTimeCreated = Time.time -5;
+#if UNITY_EDITOR
+            isRoomMeshActive = true;
+            OnRoomMeshCreated?.Invoke();
+#endif
         }
 
         private async void Update()
